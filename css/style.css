@@ -1,0 +1,53 @@
+/* 
+COLORS
+
+Header&Main: Black
+Footer: #222222
+Share screen: #4BC800
+End meeting: EE0A12
+*/
+
+/* 
+FONT AWESOME
+
+Speaker View: <i class="fas fa-th"></i>
+Arrow: <i class="fas fa-expand-arrows-alt"></i>
+
+Mute/: <i class="fas fa-microphone-slash"></i>
+
+Mute: <i class="fas fa-microphone"></i>
+Stop video: <i class="fas fa-video"></i>
+Invite: <i class="fas fa-user-plus"></i>
+Manage Partecipants: <i class="fas fa-user-friends"></i>
+Polling: <i class="fas fa-chart-bar"></i>
+Share Screen: <i class="fas fa-share-square"></i>
+Chat: <i class="fas fa-comment"></i>
+Record: <i class="fas fa-record-vinyl"></i>
+Breakout Rooms: <i class="fas fa-th-large"></i>
+More: <i class="fas fa-ellipsis-h"></i>
+*/
+
+/* 
+FOTO
+
+<img src="https://picsum.photos/246/146">
+*/
+
+
+
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lato', Helvetica, sans-serif;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
