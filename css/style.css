@@ -154,15 +154,12 @@ footer {
     height: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: red;
-
 }
 
 .btn {
     text-align: center;
     display: flex;
     padding: 1em;
-    /* justify-content: start; */
     align-items: center;
 }
 
@@ -178,28 +175,23 @@ footer {
 
 .actions ul {
     display: flex;
-    background-color: green;
+
+}
+
+.btns_center :nth-child(4) > a {
+    color: #4BC800;
 }
 
 .btn_end {
-    background-color: orange;
+    height: 100%;
+    color: #EE0A12;
+    background-color: #4A4A4A;
+    display: flex;
+    align-items: center;
 }
 
-
-
-
-
-/* .end {
-    width: 100px;
-    height: 60px;
-    background-color: #4A4A4A;
-    color: #EE0A12;
-    text-align: center;
+.btn_end a {
+    padding: 1.2rem;
     display: flex;
-
-} */
-
-/* .end > a {
-    color: inherit;
-    line-height: 60px;
-} */
+    color: #EE0A12;
+}
