@@ -113,6 +113,7 @@ main {
 .img_item {
     width: 260px;
     height: 160px;
+    object-fit: contain;
     position: relative;
     margin: 2px;
 }
@@ -141,39 +142,47 @@ footer {
     display: flex;
 }
 
-.right_side {
-    width: 140px;
-    height: 60px;
+/* Buttons */
+
+.btn {
+    text-align: center;
     display: flex;
-    justify-content: space-around;
+    padding: 1em;
+    justify-content: start;
     align-items: center;
 }
 
-.action {
-    display: flex;
-    flex-direction: column;
-}
-
-.action_icon {
+.btn_icon>i {
     font-size: 2rem;
-    text-align: center;
+    margin-bottom: .5rem;
 }
 
-.action_text {
-    text-align: center;
-    margin-top: 3px;
+.btn_submenu>i {
+    font-size: .7rem;
+    padding-left: 1.5em;
 }
 
-.end {
+.actions>ul {
+    display: flex;
+}
+
+
+
+
+
+
+
+/* .end {
     width: 100px;
     height: 60px;
     background-color: #4A4A4A;
     color: #EE0A12;
     text-align: center;
+    display: flex;
 
-}
+} */
 
-.end > a {
+/* .end > a {
     color: inherit;
     line-height: 60px;
-}
+} */
